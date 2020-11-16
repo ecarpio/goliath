@@ -1,3 +1,5 @@
 $(function(){
-    $('#example').DataTable();
+    $('#example').DataTable({
+        "ajax": '/js/sampletable.txt'
+    });
 })
