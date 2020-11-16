@@ -1,4 +1,17 @@
+html, body {
+    height:100%;
+}
+
 * {
     font-size:16px;
     outline: transparent;
+}
+
+a {
+    color:$primary;
+    text-decoration: underline;
+     
+        &:hover {
+            color:$black;
+        }
 }
