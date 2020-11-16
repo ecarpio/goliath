@@ -5,20 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Goliath Pipeline | Login</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.min.js"></script>    
+    <script src="js/init.js"></script>    
 </head>
 <body class="login-page">
 
     <!-- Start Login -->
     <div class="container login">
         <div class="row justify-content-center align-items-center">
-            <div class="col-10 col-lg-4">
-                <img src="assets/main-logo.svg" class="login-logo" />
+            <div class="col-12 col-lg-4">
+                <img src="assets/images/main-logo.svg" class="login-logo" />
             </div>
         </div>
 
         <!-- Start Login User Selector -->
         <div class="row justify-content-center">
-            <div class="col-10 col-lg-4 text-center user-selection">
+            <div class="col-12 col-md-10 col-lg-4 text-center user-selection">
                 <span class="active">Real Estate Agent</span> | 
                 <span>Loan Officer</span>
             </div>
@@ -27,17 +29,17 @@
 
 
         <div class="row justify-content-center">
-            <div class="col-10 col-lg-4">
-                <input type="text" placeholder="Enter your email address"/>
-                <input type="passwrod" placeholder="Enter your poassword"/>
+            <div class="col-12 col-md-10 col-lg-4">
+                <input type="text" placeholder="Enter your email address" data-lpignore="true"/>
+                <input type="password" placeholder="Enter your poassword" data-lpignore="true"/>
             </div>
         </div>
 
         <div class="row justify-content-center align-items-center">
-            <div class="col-5 col-lg-2">
-                <button type="submit" class="btn-primary login-button">Login</button>
+            <div class="col-6 col-md-5 col-lg-2">
+                <button type="submit" class="btn-primary login-button" >Login</button>
             </div>
-            <div class="col-5 col-lg-2 text-right">
+            <div class="col-6 col-md-5 col-lg-2 text-center">
                 <span class="align-middle"></span><a href="#" class="forgot-password">Forgot Password?</a></span>
             </div>
         </div>

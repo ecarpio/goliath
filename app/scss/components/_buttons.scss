@@ -1,6 +1,6 @@
 button {
     font-size:1rem;
-    padding:22px 50px ;
+    padding:22px 30px ;
     border:0px;
     border-radius: 20px;
     outline: none;
@@ -15,5 +15,9 @@ button {
     &.btn-primary {
         background-color:$primary;
         color:$white;
+
+            &:hover {
+                background-color: $med-gray;
+            }
     }
 }
