@@ -9702,8 +9702,8 @@ button.btn-primary {
 .login-page {
   background-image: url(../assets/sanfrancisco.svg);
   background-repeat: repeat-x;
-  background-position: bottom;
-  background-size: contain;
+  background-position: center bottom -200px;
+  background-size: cover;
   height: 100%;
 }
 
