@@ -9741,3 +9741,7 @@ button.btn-primary {
 .login .login-button {
   width: 100%;
 }
+
+.login .forgot-password {
+  font-weight: 500;
+}
