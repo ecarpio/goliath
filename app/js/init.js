@@ -1,6 +1,6 @@
 $(function(){
     $('#example').DataTable({
-        "ajax": '/js/sampletable.txt',
+        "ajax": 'https://ecarpio.github.io/goliath/app/js/sampletable.txt',
         "columns": [
             { "data": "name" },
             { "data": "email" },
