@@ -3,7 +3,7 @@ html, body {
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 1440px ;
 }
 
 * {
@@ -14,8 +14,22 @@ html, body {
 a {
     color:$primary;
     text-decoration: underline;
-     
         &:hover {
             color:$black;
         }
+}
+
+table {
+    border:0px;
+    thead {
+        th {
+            border:0px !important;
+        }
+    }
+
+    tbody {
+        td {
+            border:0px !important;
+        }
+    }
 }

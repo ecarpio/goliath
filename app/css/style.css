@@ -9672,6 +9672,18 @@ a:hover {
   color: #111111;
 }
 
+table {
+  border: 0px;
+}
+
+table thead th {
+  border: 0px !important;
+}
+
+table tbody td {
+  border: 0px !important;
+}
+
 /*!
  * Font Awesome Pro 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license (Commercial License)
@@ -19285,6 +19297,7 @@ button.btn-primary:hover {
 
 header {
   padding: 16px 30px;
+  margin-bottom: 30px;
 }
 
 header .main-logo img {
